@@ -1,0 +1,148 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  background: #00cc00
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+  background: #333333
+}
+
+
+.boddie
+{
+  background: url(Assets/imag1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container
+{
+  width: 1080px;
+  height: 500px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 40px;
+  padding-top: 45px;
+}
+
+.login_avatar
+{ 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  margin-left: 260px;
+
+}
+
+.headr
+{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.para
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: green;
+}
+
+.txttype
+{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btntype
+{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.btntype:hover
+{
+  cursor: pointer;
+  background: #07eeff;
+  color: #000;
+}
+
+.linke
+{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.linke:hover
+{
+  color: #ffc107;
+}
+div.polaroid {
+  width: 284px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #BFBFBF;
+  background-color: #3399ff;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}

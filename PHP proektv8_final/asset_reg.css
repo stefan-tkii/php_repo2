@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    
+}
+
+h2
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.register
+{
+    background: #2d85b0;
+    width: 500px;
+    margin: 0px 0px  0px 430px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.regform
+{
+    margin-left: 50px;
+}
+
+body
+{
+    background: url(Assets/imag1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+label
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+.Fnamec
+{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+
+.sub
+{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.sub:hover
+{
+    cursor: pointer;
+    background: #07eeff;
+}
+.error
+{
+    font-style: oblique;
+	color: red;
+}
+
